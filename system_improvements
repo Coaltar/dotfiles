@@ -7,9 +7,18 @@ i3 improvements
 	make active window more obvious
 	customize colors and borders
 	shortcuts for screen brightness, pause/play/etc
+	turn off mouse focus???
 
 Integrate clipboard with vim
 Customize vim
 	relative number lines
 Customize DMENU
 	CPU Temp
+
+VIM:
+	autocomplete
+	how does cool record feature work?
+	ask Greg/Johnny about cool tips
+	install NERDtree
+
+Install Starship
