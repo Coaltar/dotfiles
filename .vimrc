@@ -15,7 +15,25 @@ syntax on
 
 " Turn on relative numbers
 set relativenumber
+" set number for row
+:set number
+
+
+"turn on ruler
+set ru
 
 " Highlight cursor vertically and horizontally
 set cursorcolumn
 set cursorline
+
+" Ignore text case when searching
+set ic
+
+" Highlight words when searching
+set hlsearch
+
+" Shows partial matches for a search phrase
+set is
+
+" set tab length
+set tabstop=4
