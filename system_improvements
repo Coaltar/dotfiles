@@ -2,3 +2,14 @@ Set up:
 	bluetooth
 	power saver
 	sleep on close
+
+i3 improvements
+	make active window more obvious
+	customize colors and borders
+	shortcuts for screen brightness, pause/play/etc
+
+Integrate clipboard with vim
+Customize vim
+	relative number lines
+Customize DMENU
+	CPU Temp
