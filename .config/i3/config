@@ -188,12 +188,15 @@ bar {
         status_command i3status
 }
 
-# Loads picom
+# Loads picom to make terminal windows transparent
 exec picom
+
+
 # Starts wallpaper and loads commands to change wallpaper
-exec feh --bg-scale --randomize $wallpapers
+exec feh --bg-scale $wallpapers/KoxFullMoonNight.jpg
 bindsym $mod+Shift+w exec feh --bg-scale --randomize $wallpapers
-bindsym $mod+Shift+b exec feh --bg-scale $wallpapers/blank.jpg $normalnotif "Feh" "Blanking wallpaper"
+bindsym $mod+Shift+b exec feh --bg-scale $wallpapers/KoxFullMoonNight.jpg $normalnotif "Feh" "Blanking wallpaper"
+
 
 # the following was obtained from:
 # https://unix.stackexchange.com/questions/344329/assign-workspaces-on-i3-to-multiple-displays
@@ -213,3 +216,7 @@ workspace "10: S5" output HDMI-1
 exec --no-startup-id xrandr --output HDMI-1 --right-of eDP-1
 bindsym $mod+m exec --no-startup-id xrandr --output HDMI-1 --auto --right-of eDP-1
 
+
+#absolute Hail Mary
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
