@@ -1,18 +1,22 @@
-Set up:
-	bluetooth
-	power saver
-	sleep on close
+=============
+Questions?
+=============
+verify power save/tlp is being used correctly
+
+=============
+Set Up List
+=============
+
+sleep on close
 
 i3 improvements
 	make active window more obvious
 	customize colors and borders
 	shortcuts for screen brightness, pause/play/etc
 	turn off mouse focus???
+	set up light dm to be preeetty?
 
-Integrate clipboard with vim
-Customize vim
-	relative number lines
-Customize DMENU
+Customize status bar
 	CPU Temp
 
 VIM:
@@ -20,5 +24,12 @@ VIM:
 	how does cool record feature work?
 	ask Greg/Johnny about cool tips
 	install NERDtree
+	syntax highlighting
+ALTERNATIVE: Use Jonny's config
 
-Install Starship
+Japanese fonts
+Japanese Inputs
+
+set up password manager
+
+Starship is installed, now customize the M365Princess Theme to your liking!
