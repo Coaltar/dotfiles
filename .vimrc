@@ -37,3 +37,6 @@ set is
 
 " set tab length
 set tabstop=4
+
+" set new line/shiftwidth number of spaces
+set shiftwidth=4
