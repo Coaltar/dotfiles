@@ -7,7 +7,13 @@ verify power save/tlp is being used correctly
 Set Up List
 =============
 
+Re-arrange folders and set up private git repositories for personal documents and projects
+
 sleep on close
+
+autojump - seems to be already installed, verify that we know how to use it lol
+
+add scripts folder to path, add scripts to git config??
 
 i3 improvements
 	make active window more obvious
@@ -16,20 +22,22 @@ i3 improvements
 	turn off mouse focus???
 	set up light dm to be preeetty?
 
+
 Customize status bar
 	CPU Temp
 
-VIM:
-	autocomplete
+
+LunarVIM:
+  Replace ascii art with cool sailor moon image
 	how does cool record feature work?
 	ask Greg/Johnny about cool tips
-	install NERDtree
-	syntax highlighting
 ALTERNATIVE: Use Jonny's config
 
-Japanese fonts
-Japanese Inputs
+
+Japanese Inputs Settings
+
 
 set up password manager
+
 
 Starship is installed, now customize the M365Princess Theme to your liking!
