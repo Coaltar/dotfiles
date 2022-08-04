@@ -218,5 +218,22 @@ bindsym $mod+m exec --no-startup-id xrandr --output HDMI-1 --auto --right-of eDP
 
 
 #absolute Hail Mary
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+# bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+# bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+
+
+#scratchpad settings
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
+
+# Show the sup-mail scratchpad window, if any.
+# bindsym mod4+s [title="^Sup ::"] scratchpad show
+
+
+
+
+#screehshotkey
+bindsym $mod+Print exec import -window root screenshot.png 
