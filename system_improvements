@@ -1,19 +1,21 @@
-=============
-Questions?
-=============
-verify power save/tlp is being used correctly
 
-=============
-Set Up List
-=============
+# Big Fuck-Off List of Tasks
+
+## About
+
+The purpose of this document is to track various chores and exercises I should do to make my system more cool and gooder!
+
+## Miscellaneous Tasks
 
 Re-arrange folders and set up private git repositories for personal documents and projects
 
-sleep on close
+Sleep on close
 
-autojump - seems to be already installed, verify that we know how to use it lol
+Add scripts folder to path, and add scripts to a private Git repo.
 
-add scripts folder to path, add scripts to git config??
+Clean up my github.
+
+Customize telegram background
 
 i3 improvements
 	make active window more obvious
@@ -21,23 +23,25 @@ i3 improvements
 	shortcuts for screen brightness, pause/play/etc
 	turn off mouse focus???
 	set up light dm to be preeetty?
+	finish reading i3 guide
 
 
 Customize status bar
+	What is default i3 status bar, and how can I customize it?
 	CPU Temp
 
 
 LunarVIM:
-  Replace ascii art with cool sailor moon image
+  Replace ascii art with cool sailor moon image (or Utena! or Ranma! cycle through some dumb weeb shit) 
 	how does cool record feature work?
 	ask Greg/Johnny about cool tips
 ALTERNATIVE: Use Jonny's config
 
 
-Japanese Inputs Settings
+What are my Japanese Inputs Settings?
 
 
-set up password manager
+Set up password manager
 
 
 Starship is installed, now customize the M365Princess Theme to your liking!
