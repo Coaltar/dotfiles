@@ -8,5 +8,5 @@
 # unset f
 #fi
 
-#xrdb -merge $HOME/.Xresources
+xrdb -merge $HOME/.Xresources
 exec i3
