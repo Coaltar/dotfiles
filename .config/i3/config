@@ -257,6 +257,9 @@ bindsym $mod+Print exec flameshot gui
 #
 # Disable Titlebars, enable slight border
 default_border pixel 1
+# class                 border  backgr. text    indicator
+client.focused          #CC0000 #98fff3 #2e9ef4 #ffffff  
+# client.focused #98fff3 #CC0000 #ffffff #2e9ef4 #285577
 
 # GAP Settings
 gaps outer 0
