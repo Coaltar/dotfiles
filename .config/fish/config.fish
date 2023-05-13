@@ -4,4 +4,5 @@ end
 
 #set starship as shell prompt
 starship init fish | source
-autojump > /dev/null
+autojump >/dev/null
+[ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish

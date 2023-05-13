@@ -186,18 +186,18 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-bar {
-  # status_command i3status
- mode invisible
- status_command polybar
-}
+#
+# bar {
+#   # status_command i3status
+#  mode invisible
+#  status_command polybar
+# }
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-# bar {
-#         #status_command i3status
-#         status_command polybar
-# }
+bar {
+        status_command i3status
+        # status_command polybar
+}
 #
 # Loads picom to make terminal windows transparent
 exec picom
@@ -213,16 +213,16 @@ bindsym $mod+Shift+b exec feh --bg-scale $wallpapers/KoxFullMoonNight.jpg $norma
 # the following was obtained from:
 # https://unix.stackexchange.com/questions/344329/assign-workspaces-on-i3-to-multiple-displays
 # use workspaces on different monitors
-# workspace "1: P1" output eDP-1
-# workspace "2: P2" output eDP-1
-# workspace "3: P3" output eDP-1
-# workspace "4: P4" output eDP-1
-# workspace "5: P5" output eDP-1
-# workspace "6: S1" output HDMI-1 
-# workspace "7: S2" output HDMI-1
-# workspace "8: S3" output HDMI-1
-# workspace "9: S4" output HDMI-1
-# workspace "10: S5" output HDMI-1
+workspace "1: P1" output eDP-1
+workspace "2: P2" output eDP-1
+workspace "3: P3" output eDP-1
+workspace "4: P4" output eDP-1
+workspace "5: P5" output eDP-1
+workspace "6: S1" output HDMI-1
+workspace "7: S2" output HDMI-1
+workspace "8: S3" output HDMI-1
+workspace "9: S4" output HDMI-1
+workspace "10: S5" output HDMI-1
 
 # add HDMI monitor when connected
 exec --no-startup-id xrandr --output HDMI-1 --right-of eDP-1
@@ -250,6 +250,7 @@ exec picom
 
 # Bind custom hotkeys
 bindsym $mod+Print exec flameshot gui
+bindsym $mod+t exec bash ~/scripts/get_time.sh
 
 
 
@@ -265,5 +266,5 @@ client.focused          #CC0000 #98fff3 #2e9ef4 #ffffff
 gaps outer 0
 gaps inner 7
 smart_gaps on
-smart_borders on
+# smart_borders on
 
